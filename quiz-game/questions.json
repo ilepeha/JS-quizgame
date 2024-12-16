@@ -1,0 +1,798 @@
+{
+    "JavaScript": [
+        {
+            "question": "What does JS stand for?",
+            "options": [
+                "JavaStyle",
+                "JavaSyntax",
+                "JavaScript",
+                "JavaServer"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which tag is used to include JavaScript in an HTML document?",
+            "options": [
+                "<script>",
+                "<javascript>",
+                "<js>",
+                "<code>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is the correct syntax for writing a JavaScript comment?",
+            "options": [
+                "# This is a comment",
+                "<!-- This is a comment -->",
+                "// This is a comment",
+                "* This is a comment"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "How do you declare a variable in JavaScript?",
+            "options": [
+                "var x;",
+                "let x;",
+                "const x;",
+                "All of the above"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Which keyword is used to define a function in JavaScript?",
+            "options": [
+                "func",
+                "function",
+                "method",
+                "def"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "How do you write an 'if' statement in JavaScript?",
+            "options": [
+                "if x == 5 then {}",
+                "if x = 5 {}",
+                "if (x == 5) {}",
+                "if x equals 5 {}"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the purpose of the 'this' keyword in JavaScript?",
+            "options": [
+                "To refer to a function",
+                "To refer to the current object",
+                "To declare a variable",
+                "To create a loop"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which method is used to parse a JSON string in JavaScript?",
+            "options": [
+                "JSON.stringify",
+                "JSON.parse",
+                "parseJSON",
+                "toJSON"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What does the 'typeof' operator do in JavaScript?",
+            "options": [
+                "Returns the type of a variable",
+                "Declares a variable type",
+                "Compares two values",
+                "Casts a variable to a type"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which array method adds an element to the end of an array?",
+            "options": [
+                "push()",
+                "pop()",
+                "shift()",
+                "unshift()"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which symbol is used for single-line comments in JavaScript?",
+            "options": [
+                "//",
+                "/* */",
+                "#",
+                "<!-- -->"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What will `console.log(1 + '2');` output?",
+            "options": [
+                "3",
+                "12",
+                "undefined",
+                "Error"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is the purpose of the 'async' keyword?",
+            "options": [
+                "To run code synchronously",
+                "To handle promises",
+                "To create loops",
+                "To declare variables"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which function is used to handle exceptions in JavaScript?",
+            "options": [
+                "try...catch",
+                "throw...catch",
+                "catch...throw",
+                "error"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What does the '===' operator check?",
+            "options": [
+                "Equality with type coercion",
+                "Strict equality (type and value)",
+                "Loose equality",
+                "Greater than"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which function converts a string into a number?",
+            "options": [
+                "Number()",
+                "parseInt()",
+                "parseFloat()",
+                "All of the above"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "What is the correct way to define an arrow function?",
+            "options": [
+                "let func = (x) => x;",
+                "let func = -> x;",
+                "let func => x;",
+                "let func x =>;"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which method removes the last element of an array?",
+            "options": [
+                "pop()",
+                "push()",
+                "shift()",
+                "splice()"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "How can you check if a variable is an array?",
+            "options": [
+                "Array.isArray()",
+                "typeof variable === 'array'",
+                "variable.isArray()",
+                "Array.check(variable)"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What does DOM stand for?",
+            "options": [
+                "Document Object Model",
+                "Data Object Mapping",
+                "Digital Output Management",
+                "Document Output Method"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which loop is guaranteed to run at least once?",
+            "options": [
+                "for",
+                "while",
+                "do-while",
+                "foreach"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is a callback function?",
+            "options": [
+                "A function passed as an argument",
+                "A function that returns a value",
+                "A built-in JavaScript function",
+                "A recursive function"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "How do you stop an interval timer in JavaScript?",
+            "options": [
+                "clearInterval()",
+                "stopInterval()",
+                "cancelTimer()",
+                "pauseInterval()"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which of the following is not a JavaScript data type?",
+            "options": [
+                "Number",
+                "String",
+                "Float",
+                "Object"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the purpose of promises in JavaScript?",
+            "options": [
+                "To handle asynchronous operations",
+                "To create loops",
+                "To declare variables",
+                "To handle synchronous operations"
+            ],
+            "correct": 0
+        }
+    ],
+    "HTML": [
+        {
+            "question": "What does HTML stand for?",
+            "options": [
+                "Hyper Text Markup Language",
+                "High-Level Machine Language",
+                "Hyper Tool Markup Language",
+                "Home Tool Markup Language"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which tag is used for the largest heading in HTML?",
+            "options": [
+                "<h6>",
+                "<h1>",
+                "<heading>",
+                "<h>"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which tag is used to insert a line break in HTML?",
+            "options": [
+                "<br>",
+                "<lb>",
+                "<break>",
+                "<newline>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which attribute is used to provide an alternative text for an image?",
+            "options": [
+                "title",
+                "alt",
+                "src",
+                "text"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is the correct HTML tag for creating a hyperlink?",
+            "options": [
+                "<a>",
+                "<link>",
+                "<href>",
+                "<hyperlink>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which tag is used for the largest heading in HTML?",
+            "options": [
+                "<h6>",
+                "<h1>",
+                "<heading>",
+                "<h>"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which tag is used to insert a line break in HTML?",
+            "options": [
+                "<br>",
+                "<lb>",
+                "<break>",
+                "<newline>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which attribute is used to provide an alternative text for an image?",
+            "options": [
+                "title",
+                "alt",
+                "src",
+                "text"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is the correct HTML tag for creating a hyperlink?",
+            "options": [
+                "<a>",
+                "<link>",
+                "<href>",
+                "<hyperlink>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which attribute is used to uniquely identify an HTML element?",
+            "options": [
+                "class",
+                "id",
+                "name",
+                "key"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is the purpose of the <title> tag in HTML?",
+            "options": [
+                "To specify the document's title in the browser tab",
+                "To create a heading",
+                "To provide a subtitle",
+                "To display an image title"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which tag is used to create a table in HTML?",
+            "options": [
+                "<table>",
+                "<tab>",
+                "<grid>",
+                "<layout>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What does the <meta> tag define in an HTML document?",
+            "options": [
+                "Metadata like description, keywords, and author",
+                "The main content of the page",
+                "The layout of the document",
+                "The font style of the document"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which tag is used to display a list item in an unordered list?",
+            "options": [
+                "<li>",
+                "<ul>",
+                "<ol>",
+                "<list-item>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which input type is used to create a slider control in HTML5?",
+            "options": [
+                "range",
+                "slider",
+                "select",
+                "text"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is the purpose of the <form> tag in HTML?",
+            "options": [
+                "To create a form for user input",
+                "To display a table",
+                "To add metadata",
+                "To create a navigation menu"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which tag is used to define a paragraph in HTML?",
+            "options": [
+                "<p>",
+                "<para>",
+                "<par>",
+                "<text>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is the correct HTML tag to insert an image?",
+            "options": [
+                "<img>",
+                "<picture>",
+                "<image>",
+                "<src>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which attribute specifies the URL of an image in HTML?",
+            "options": [
+                "src",
+                "href",
+                "link",
+                "alt"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which HTML element is used to define a footer for a document or section?",
+            "options": [
+                "<footer>",
+                "<bottom>",
+                "<section>",
+                "<div>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which HTML tag is used to create a dropdown menu?",
+            "options": [
+                "<select>",
+                "<dropdown>",
+                "<menu>",
+                "<list>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is the correct way to define a checkbox in HTML?",
+            "options": [
+                "<input type='checkbox'>",
+                "<checkbox>",
+                "<input type='check'>",
+                "<input box='check'>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which HTML element is used to create a navigation link?",
+            "options": [
+                "<a>",
+                "<nav>",
+                "<link>",
+                "<menu>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What does the <aside> tag represent in HTML5?",
+            "options": [
+                "Content related to the main content, such as a sidebar",
+                "Main content of the document",
+                "Footer of the document",
+                "Header of the document"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which HTML element is used to group related content in a form?",
+            "options": [
+                "<fieldset>",
+                "<legend>",
+                "<section>",
+                "<div>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What does the <canvas> element in HTML5 allow you to do?",
+            "options": [
+                "Create graphics using JavaScript",
+                "Embed videos",
+                "Create animations using CSS",
+                "Add 3D models"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is the purpose of the <blockquote> tag in HTML?",
+            "options": [
+                "To define a long quotation",
+                "To display a code block",
+                "To make text bold",
+                "To create a list"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is the correct HTML element for inserting a horizontal line?",
+            "options": [
+                "<hr>",
+                "<line>",
+                "<break>",
+                "<hline>"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which tag is used to specify inline CSS in HTML?",
+            "options": [
+                "<style>",
+                "<css>",
+                "<link>",
+                "<script>"
+            ],
+            "correct": 0
+        }
+    ],
+    "CSS": [
+        {
+                    "question": "What does CSS stand for?",
+                    "options": [
+                        "Cascading Style Sheets",
+                        "Creative Style System",
+                        "Computer Style Sheets",
+                        "Colorful Style Sheets"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Which CSS property is used to change the text color?",
+                    "options": [
+                        "color",
+                        "text-color",
+                        "font-color",
+                        "background-color"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Which property is used to set the background color in CSS?",
+                    "options": [
+                        "background",
+                        "background-color",
+                        "bgcolor",
+                        "color"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "How do you make text bold in CSS?",
+                    "options": [
+                        "font-weight: bold;",
+                        "text-bold: true;",
+                        "font-style: bold;",
+                        "text-decoration: bold;"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Which CSS property is used to change the font of an element?",
+                    "options": [
+                        "font-weight",
+                        "font-family",
+                        "text-font",
+                        "font-style"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "What does the z-index property in CSS control?",
+                    "options": [
+                        "The visibility of an element",
+                        "The stacking order of elements",
+                        "The zoom level of an element",
+                        "The size of an element"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "Which property is used to control the space between letters?",
+                    "options": [
+                        "letter-spacing",
+                        "text-spacing",
+                        "character-spacing",
+                        "word-spacing"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "What does the 'position' property in CSS determine?",
+                    "options": [
+                        "The location of an element in the DOM",
+                        "How an element is positioned in the layout",
+                        "The margin of an element",
+                        "The font of an element"
+                    ],
+                    "correct": 1
+                },
+                {
+                    "question": "Which property is used to add space inside an element's border?",
+                    "options": [
+                        "padding",
+                        "margin",
+                        "border",
+                        "spacing"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Which property is used to set the width of an element in CSS?",
+                    "options": [
+                        "width",
+                        "height",
+                        "size",
+                        "dimension"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "What is the default position value in CSS?",
+                    "options": [
+                        "static",
+                        "relative",
+                        "absolute",
+                        "fixed"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Which value of the 'display' property hides an element from the page layout?",
+                    "options": [
+                        "none",
+                        "hidden",
+                        "invisible",
+                        "off"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "How do you apply a specific font in CSS?",
+                    "options": [
+                        "font-family: Arial, sans-serif;",
+                        "font-type: Arial, sans-serif;",
+                        "font-style: Arial, sans-serif;",
+                        "font: Arial, sans-serif;"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Which CSS property controls the visibility of an element?",
+                    "options": [
+                        "visibility",
+                        "display",
+                        "opacity",
+                        "hidden"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "What is the correct syntax for a CSS comment?",
+                    "options": [
+                        "// This is a comment",
+                        "<!-- This is a comment -->",
+                        "/* This is a comment */",
+                        "# This is a comment"
+                    ],
+                    "correct": 2
+                },
+                {
+                    "question": "Which property is used to align text to the center?",
+                    "options": [
+                        "text-align: center;",
+                        "align: center;",
+                        "font-align: center;",
+                        "justify: center;"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "How do you link an external CSS file to an HTML document?",
+                    "options": [
+                        "<link rel='stylesheet' href='styles.css'>",
+                        "<style src='styles.css'>",
+                        "<css link='styles.css'>",
+                        "<stylesheet href='styles.css'>"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Which property is used to create rounded corners in CSS?",
+                    "options": [
+                        "border-radius",
+                        "corner-radius",
+                        "round-corners",
+                        "border-style"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Which property is used to set the size of the text?",
+                    "options": [
+                        "font-size",
+                        "text-size",
+                        "size",
+                        "font-style"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Which property specifies whether the background image should be fixed or scroll?",
+                    "options": [
+                        "background-attachment",
+                        "background-scroll",
+                        "background-fixed",
+                        "background-position"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "What is the correct way to apply a CSS rule to an element with a specific ID?",
+                    "options": [
+                        "#id",
+                        ".id",
+                        ":id",
+                        "id="
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Which property specifies the distance between the lines of text?",
+                    "options": [
+                        "line-height",
+                        "text-spacing",
+                        "line-spacing",
+                        "spacing"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Which CSS property sets the transparency of an element?",
+                    "options": [
+                        "opacity",
+                        "filter",
+                        "visibility",
+                        "display"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "What is the purpose of media queries in CSS?",
+                    "options": [
+                        "To apply styles based on screen size or device type",
+                        "To change font sizes",
+                        "To import external stylesheets",
+                        "To create animations"
+                    ],
+                    "correct": 0
+                },
+                {
+                    "question": "Which property defines the animation duration in CSS?",
+                    "options": [
+                        "animation-duration",
+                        "transition-duration",
+                        "animation-time",
+                        "duration"
+                    ],
+                    "correct": 0
+                }
+            ]
+}

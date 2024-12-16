@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- Player Selection Screen -->
+        <div id="player-selection" class="screen active">
+            <h1>Select Players</h1>
+            <div id="player-list"></div>
+            <button id="add-player">Add Player</button>
+            <button id="remove-player">Remove Player</button>
+            <button id="next-to-subjects" disabled>Next</button>
+        </div>
+
+        <!-- Subject Selection Screen -->
+        <div id="subject-selection" class="screen hidden">
+            <h1>Select Quiz Subject</h1>
+            <div id="subjects">
+                <button class="subject" data-subject="HTML">HTML</button>
+                <button class="subject" data-subject="CSS">CSS</button>
+                <button class="subject" data-subject="JavaScript">JavaScript</button>
+                <button class="subject" data-subject="Mixed">Mixed</button>
+            </div>
+            <h2>Select Difficulty</h2>
+            <div id="difficulty">
+                <button class="difficulty" data-difficulty="3">Default (3 questions)</button>
+                <button class="difficulty" data-difficulty="4">Normal (4 questions)</button>
+                <button class="difficulty" data-difficulty="5">Difficult (5 questions)</button>
+            </div>
+            <button id="start-game" disabled>Start Game</button>
+        </div>
+
+        <!-- Gameplay Screen -->
+        <div id="game-screen" class="screen hidden">
+            <h1 id="player-turn"></h1>
+            <div id="timer">Time: 15</div>
+            <div id="question-container"></div>
+            <div id="answers"></div>
+            <button id="submit-answer" disabled>Submit</button>
+        </div>
+
+        <!-- End Game Screen -->
+        <div id="game-end" class="screen hidden">
+            <h1>Game Over</h1>
+            <div id="results"></div>
+        </div>
+
+        <!-- Review Screen -->
+        <div id="review-screen" class="screen hidden">
+            <h1>Review Answers</h1>
+            <div id="review-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
